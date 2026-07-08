@@ -28,10 +28,10 @@ Quick start
 
 int main(int argc, char *argv[]) {
 	/* Register a flag and a parameter with a default value */
-	karg_signFlag("-v, --version", "Show program version");
-	karg_signParam("-o, --output", "Output file path", 0, "out.txt");
+	karg_signFlag("-v --version", "Show program version");
+	karg_signParam("-o --output", "Output file path", 0, "out.txt");
 	/* Add a built-in help entry */
-	karg_generateHelp("-h, --help");
+	karg_generateHelp("-h --help");
 
 	/* Parse and validate command-line arguments */
 	karg_checkArgs(argc, argv);
