@@ -2,7 +2,7 @@
 
 Lightweight C command-line argument parser.
 
-K-Arg is a small, dependency-free argument parser implemented in C. It
+`K-Arg` is a small, dependency-free argument parser implemented in C. It
 lets applications register named parameters, boolean flags, and hierarchical
 parent/child command nodes, parse argv, and query values at runtime.
 
@@ -71,12 +71,12 @@ or submit a pull request with tests or minimal repro steps.
 
 ## About
 
-I built `karg` primarily to make creating CLI C programs faster and
+I built `K-Arg` primarily to make creating CLI C programs faster and
 less repetitive. I use it for small command-line utilities, system tools,
 and experiments where pulling in a larger dependency would be overkill.
 
 Note: I enjoy working close to the metal in C, exploring command-line
 usability, and sharing tiny, focused libraries that solve one problem well.
-If you try `karg` and have feedback, please open an issue or send a pull
+If you try `K-Arg` and have feedback, please open an issue or send a pull
 request — I read them and appreciate small examples that reproduce the issue.
 
