@@ -1,8 +1,8 @@
-# karg
+# K-Arg
 
 Lightweight C command-line argument parser.
 
-karg is a small, dependency-free argument parser implemented in C. It
+K-Arg is a small, dependency-free argument parser implemented in C. It
 lets applications register named parameters, boolean flags, and hierarchical
 parent/child command nodes, parse argv, and query values at runtime.
 
