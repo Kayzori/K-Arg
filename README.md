@@ -6,13 +6,13 @@ karg is a small, dependency-free argument parser implemented in C. It
 lets applications register named parameters, boolean flags, and hierarchical
 parent/child command nodes, parse argv, and query values at runtime.
 
-Features
+## Features
 - Single-file C implementation (see the `karg` folder)
 - Register parameters, flags, parent/child commands
 - Built-in help entry generation
 - Minimal API designed for embedding into small tools and utilities
 
-Quick start
+## Quick start
 
 1. Build or include the sources in your project. The headers and sources live
    under the `karg` directory.
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-API (selected)
+## API (selected)
 - `argid_t karg_signParam(char *labels, char *description, char required, char *defaultData)` — register a parameter with labels and optional default
 - `argid_t karg_signFlag(char *labels, char *description)` — register a boolean flag
 - `argid_t karg_signParent(char *labels, char *description)` — create a parent/command node
@@ -60,16 +60,16 @@ API (selected)
 
 See the header for full signatures and additional helpers: [karg/karg.h](karg/karg/karg.h#L1).
 
-License
+## License
 
 This project is provided under the terms of the LICENSE file.
 
-Contributing
+## Contributing
 
 Contributions, bug reports and small improvements are welcome. Open an issue
 or submit a pull request with tests or minimal repro steps.
 
-About
+## About
 
 I built `karg` primarily to make creating CLI C programs faster and
 less repetitive. I use it for small command-line utilities, system tools,
